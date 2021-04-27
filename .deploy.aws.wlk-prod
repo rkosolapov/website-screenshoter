@@ -1,1 +1,11 @@
-.deploy.aws.production
+appCpu = 256
+appMemory = 1024
+appEnvFile = ".env.production"
+appAutoscalingMinCount     = 1
+appAutoscalingDesiredCount = 1
+appAutoscalingMaxCount     = 5
+appAutoscalingMetric         = "cpu"
+appAutoscalingMetricHigh     = "80"
+appAutoscalingMetricLow      = "20"
+appAutoscalingAdjustmentUp   = 2
+appAutoscalingAdjustmentDown = 2
