@@ -1,6 +1,6 @@
 appCpu = 256
-appMemory = 1024
-appEnvFile = ".env.production"
+appMemory = 256
+appEnvFile = ".env"
 appAutoscalingMinCount     = 1
 appAutoscalingDesiredCount = 1
 appAutoscalingMaxCount     = 5
