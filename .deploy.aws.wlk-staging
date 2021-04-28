@@ -1,3 +1,0 @@
-appCpu = 256
-appMemory = 256
-appEnvFile = ".env.staging"
