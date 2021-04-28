@@ -13,4 +13,4 @@ Website screenshoting service powered by https://www.npmjs.com/package/manet
 * PASSWORD: if set, HTTP Basic Auth will be activated
 
 # WSP AWS Manifest example
-On application registration, if there is a file .deploy.aws.environmentName, WSP AWS will parse it and prefill the UI form with values from this file.
+On application registration, if there is a file .deploy.aws or .deploy.aws.environmentName, WSP AWS will parse it and prefill the UI form with values from this file.
